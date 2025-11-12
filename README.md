@@ -1,4 +1,5 @@
 # Pitch Path Visiualization
+![Pitch without object Detection](./timeline.png)
 The goals of the repo are the following,
  - detect a baseball
  - ~flight parameters
