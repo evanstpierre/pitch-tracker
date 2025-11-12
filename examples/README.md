@@ -29,7 +29,8 @@ jupyter notebook
 
 
 ## Baseball detection using YOLO Model
-To s
+
+Basic Application of YOLO V9 on a single [pitch](./baseball-pitch.mp4)
 
 
 Dependencies: 
@@ -37,10 +38,16 @@ Dependencies:
  
 
 
-### 2D Least Squares 
-Basic Least Squares fitting of porabola (in controlled env) with reconstruction of trajectory in animation.
+## 2D Least Squares 
 
-Dependencies:
+Basic Least Squares fitting of porabola with reconstruction of trajectory animated 
+
+![2D line animation output](./data/ezgif.com-optimize.gif)
+
+We are approximating the function $y \sim x^2$ centered at $(0,0)$ . 
+
+
+
 
 
 

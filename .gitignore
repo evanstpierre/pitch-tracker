@@ -59,7 +59,7 @@ venv/
 # ------------------------------------
 # Data & Large Files (optional)
 # ------------------------------------
-data/
+
 datasets/
 models/
 *.csv
