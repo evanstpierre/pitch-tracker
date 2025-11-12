@@ -30,7 +30,7 @@ jupyter notebook
 
 ## Baseball detection using YOLO Model
 
-Basic Application of YOLO V9 on a single [pitch](./baseball-pitch.mp4)
+Basic Application of YOLO V9 on a single [pitch](/examples/data/baseball-pitch.mp4)
 
 
 Dependencies: 
