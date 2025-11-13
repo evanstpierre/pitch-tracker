@@ -15,8 +15,8 @@ This project has three main technical components:
 .
 ├── datasets/
 │   └── ...                # Training and validation data
-├── examples/              # Learning Examples (To showcase simple examples of each technical aspect) 
-├── api/                   # Python backend (FastAPI/Flask), inference, endpoints 
+├── examples/              # Learning Examples (Jupyter Notebooks) 
+├── api/                   # Python backend (FastAPI/Flask), inference, endpoints
 │   └── ...  
 ├── web/                   # Next.js frontend (UI, visualizations) 
 │   └── ...  
