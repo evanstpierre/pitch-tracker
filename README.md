@@ -6,9 +6,9 @@
 The goal of this repo is to train a custom object-detection model to track a baseball pitch and calculate and display its trajectory.
 
 This project has three main technical components:
-	1.	Baseball Detection — training a model to identify the baseball in each frame.
-	2.	Flight Estimation — calculating flight parameters from the detected positions.
-	3.	Trajectory Visualization — rendering the ball’s estimated path.
+1.	Baseball Detection — training a model to identify the baseball in each frame.
+2.	Flight Estimation — calculating flight parameters from the detected positions.
+3.	Trajectory Visualization — rendering the ball’s estimated path.
 
 ## Project Structure 
 ```
