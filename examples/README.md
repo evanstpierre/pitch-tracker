@@ -35,10 +35,21 @@ jupyter notebook
 
 Basic Application of YOLO V9 on a single [pitch](/examples/media/baseball_pitch.mp4)
 
+Using BaseballCV baseball dataset to fine-tune YOLOv11 models. 
 
-Dependencies: 
-- [baseballcv](https://baseballcv.com/)
- 
+### Attempt #1
+
+![alt text](media/tracked_pitch-ezgif.com-optimize.gif)
+
+
+
+- Issues:
+-   Before ball leaves pitcher hand many false positives (to high of an error)
+
+- Improvements
+    - Train with more epoch 
+    -  Use a more robust model (e.g. *yolo11n*) to train model
+
 
 
 ## 2D Least Squares 
