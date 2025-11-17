@@ -1,7 +1,7 @@
 # Pitch Path Visiualization
 
 
-![Pitch without object Detection](./timeline.png)
+![Pitch without object Detection](./media/timeline.png)
 
 The goal of this repo is to train a custom object-detection model to track a baseball pitch and calculate and display its trajectory.
 
@@ -13,13 +13,14 @@ This project has three main technical components:
 ## Project Structure 
 ```
 .
-├── datasets/
+├── data/
 │   └── ...                # Training and validation data
 ├── examples/              # Learning Examples (Jupyter Notebooks) 
 ├── api/                   # Python backend (FastAPI/Flask), inference, endpoints
 │   └── ...  
 ├── web/                   # Next.js frontend (UI, visualizations) 
 │   └── ...  
+├── meida/  
 └── README.md              # Project documentation
 
 ```
@@ -42,7 +43,7 @@ Distribution:
 - Test: 426 images
 - Valid: 375 images
 
-To download the dataset see [dataset.txt](dataset.txt)
+To download the dataset see [dataset.txt](data/datasets/baseball.txt)
 
 
 

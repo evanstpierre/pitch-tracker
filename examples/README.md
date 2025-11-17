@@ -1,39 +1,23 @@
  # Examples
 
-## Getting started 
+s## Getting started 
 
 ### Creating Conda Virutal Environment
 ```sh
-conda create -n baseballcv python=3.10 -y
-conda activate baseballcv
+conda create -n pitch-tracer python=3.10 -y
+conda activate pitch-tracer
 ```
 ### Install Dipendencies (GPU Required)
 ```sh
-# Core dependencies
-pip install numpy opencv-python torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-
-# Optional for visualization and notebook use
-pip install matplotlib jupyter notebook tqdm
-
-# If baseballcv is a local package (e.g., in the same folder):
-pip install -e .
-# Or if it's on PyPI:
-pip install baseballcv
 
 ```
-
-### From your terminal inside the environment:
-```sh
-jupyter notebook
-```
-
 
 ## Baseball detection using YOLO Model
 
 ![Pitch without object Detection](./media/baseball-pitch.gif)
 
 
-Basic Application of YOLO V9 on a single [pitch](/examples/media/baseball_pitch.mp4)
+Basic Application of YOLOv11 on a single [pitch](/examples/media/baseball_pitch.mp4)
 
 Using BaseballCV baseball dataset to fine-tune YOLOv11 models. 
 
@@ -44,7 +28,7 @@ Using BaseballCV baseball dataset to fine-tune YOLOv11 models.
 
 
 - Issues:
--   Before ball leaves pitcher hand many false positives (to high of an error)
+    - Before ball leaves pitcher hand many false positives (to high of an error)
 
 - Improvements
     - Train with more epoch 
